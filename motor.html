@@ -1,0 +1,303 @@
+<!--Documento HTML5-->
+<!DOCTYPE html>
+<!--Lenguaje ES (México)-->
+<html lang="es">
+    <!--Tipo de documento-->
+    <head>
+            <!-- Favicon-->
+            <link rel="icon" href="images/max.png" type="image/png"/>
+            <!--Indicaciones de los metas -->
+            <meta charset="UTF-8" />
+            <meta name="description" content="Uso de Tablas con CSS" />
+            <meta name="keywords" content="Practica, Tabla, tecnm" />
+            <meta name="author"  content="Maximino Mejía Ruíz, maximinomejiaruiz@gmail.com"/>
+            <meta http-equiv="refresh" content="80">
+            <meta name="description" lang="es" content="" />
+             <meta name="robots" content="index, Follow">
+             <meta http-equiv="pragma" content="no-cache" >
+             <link rel="stylesheet" type=text/css href="css/mantenimiento.css" media="all"> 
+            <title> ...:: Motor ::.. </title> 
+            <!--Hojas de estilo (internas o externas)-->
+            <style type="text/css">
+                *{
+                }
+                #body{
+                    background-color: black;
+                }
+                
+
+                #contenedor {
+                    text-align: center;
+                    background: chartreuse;
+                    background-image: linear-gradient(to right, rgb(248, 188, 238),rgb(172, 243, 239));
+                    
+                }
+
+                table {
+                    width: 100%;
+                    font: normal 16px Arial;
+                    text-align: center;
+                    background-color: #2efafa ;
+                    color:fff;
+                }
+                table th {
+                    font: bold 18px Arial;
+                    background-color: rgb(235, 211, 0);
+                    text-align: center;
+                    
+                }
+
+                .filapar {
+                    background-color: #a1ec9a;
+                    background-image: linear-gradient(to right, rgb(221, 188, 248),rgb(172, 243, 239));
+                }                
+
+                .filaimpar{
+                    background-color:#ecf75b;
+                    background-image: linear-gradient(to right, rgb(221, 188, 248),rgb(172, 243, 239));
+                }
+
+                h1 {
+                    font: bold 30px Tahoma;
+                    text-align: center;
+                    color:rgb(71, 195, 233);
+                }
+
+                h6 {
+                    font: normal 10px arial;
+                    text-align: left;
+                    
+                }
+                table tr {
+                     background-color: #2eec3e;
+                     width: auto;
+                     background-image: linear-gradient(to right, rgb(248, 188, 233),rgb(172, 243, 239));
+                 }
+
+                .parrafofuente {
+                    font:normal 14px arial;
+                    text-align: left;
+                    padding-top: 5px;
+                    padding-left: 20px;
+                }
+
+                .fuente {
+                    font-weight:bold 10px;
+                    font-style: italic;
+                    text-align: left;
+                }
+
+                .descripcion {
+                    text-align: justify;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                }
+
+                table td {
+                    width: 16.66%;
+                }
+                .encabezado{
+                    text-align: justify;
+                    width: auto;
+                    color: rgb(0, 0, 0);
+                    font-size: 18px;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                }
+
+            </style>
+           
+    </head>
+
+
+    <body id="body">
+        <!--Menu-->
+        <!--Texto (Titulos-Parrafos)-->
+        <!--Listas Desordenadas <ul> <li> </li> </ul> -->
+
+        <header>
+            <img src="images/logoface.png" border="1px" width="40px" height="40px" hspace="1px" vspace="2px" alt="facebook" aling="rigth" >
+            <img src="images/Logo-Instagram.png" border="1px" width="45px" height="45px" hspace="1px" vspace="2px" alt="instagram" aling="rigth">
+            <img src="images/twitter.png" border="1px" width="40px" height="40px" hspace="1px" vspace="2px" alt="twitwer" aling="rigth">
+  
+                <h1>(-_-)::FULL BIKERS::(-_-)</h1>
+              <h2>-----Una Vida Sobre Ruedas-----</h2>
+        </header>
+  
+        <!--Barra de navegación-->
+  
+        <nav>
+            
+              <div id="menu"> 
+                  <ul>
+                    <li id="inicio" ><a href="index.html" class="nivel1">Inicio</a> 
+                      <li id="equipo" ><a href="#" class="nivel1">Equipo</a> 
+                          <ul>
+                              <li><a href="cascos.html">Cascos</a></li>
+                              <li><a href="accesorios.html">Accesorios</a></li>
+                              <li><a href="neumaticos.html">Neumaticos</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="mantenimiento" ><a href="#" class="nivel1">Mantenimiento</a> 
+                          <ul>
+                              <li><a href="motos.html">Motos</a></li>
+                              <li><a href="motor.html">Motor</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="consejos" ><a href="#" class="nivel1">Consejos</a> 
+                          <ul>
+                              <li><a href="proteccion.html">Protección</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="datoslegales" ><a href="#" class="nivel1">Datos Legales</a> 
+                          <ul>
+                              <li><a href="informacion.html">Información</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="inicio" ><a href="sesion.html" class="nivel1">Inicio de Sesion</a> 
+                          
+                      </li>
+
+                      <li id="informacion" ><a href="#" class="nivel1">Información</a> 
+                        <ul>
+                        
+                            <li><a href="Contactos.html">Contactos</a></li>
+                           <li><a href="staff.html">Staff</a></li>
+						   <li><a href="testimonios.html">Testimonios</a></li>
+                           <li><a href="ubicacion.html">ubicación</a></li>
+                        </ul>
+                    </li>
+  
+  
+                  </ul>
+               </div>  
+        </nav>
+    
+         
+        <table align="center">
+                    <tr class="encabezado"> <br>
+
+                        <td colspan="6"><br><br><center><h2>Como Limpiar El Motor De Mi Moto</h2></center><br>La limpieza del motor de la moto es una tarea que debemos llevar 
+                            cabo no sólo por cuestiones estéticas, sino, sobre todo, porque un exceso de suciedad podría 
+                            llegar a impedir un funcionamiento óptimo de la máquina. En este artículo, se explica cómo 
+                            lavar la moto, pero antes de ponernos manos a la obra, ya que vamos a usar agua, es necesario 
+                            que aislemos por completo todos los componentes electrónicos. En unComo.com te damos respuesta 
+                            a la pregunta de cómo limpiar el motor de mi moto.</td><br>
+                        
+                    </tr>
+
+                    <tr class="filaimpar">
+                        <td> <br><b>1-Paso Uno </b><br> 
+                            
+                             
+                             <br><div class="descripcion">
+                                Antes de comenzar con la limpieza del motor de la motocicleta, debemos dejar que se enfríe. 
+                                Algunas clases de motos ya tienen el motor al aire, pero en otros modelos necesitaremos antes 
+                                retirar las carenadas. </div>
+                        </td>
+                        <td>  <br><b>2-Paso Dos</b><br>
+                            
+                            <div class="descripcion">
+                         <br>Una vez que tengamos acceso al motor y este esté frío, es cuando tenemos que tener mucho cuidado 
+                         para tapar con plásticos los componentes electrónicos. Una vez cubiertas estas áreas, utilizaremos 
+                         cinta adhesiva para reforzar la cobertura antes de empezar a lavar.</div>
+                    </td>
+
+                        
+
+                    <tr class="filapar">
+
+                        <td> <br><b>3-Paso Tres</b> <br>
+                        
+                        <br><div class="descripcion">
+                            Llega, entonces, el momento de rociar el resto del motor de la moto con un producto desengrasante. 
+                            Lo dejaremos actuar unos cinco minutos y, después, frotaremos con un cepillo pequeño las zonas con 
+                            más suciedad.
+                        </div>
+                        
+                        </td>
+                        
+                        <td><br> <b>4-Paso Cuatro</b> <br>
+                        
+                            <br><div class="descripcion">
+                                Cuando ya hayamos retirado todos los desechos, usaremos una manguera para enjuagar. Sin embargo, 
+                                si vemos que el motor no queda limpio del todo, podremos usar agua a presión para ayudar a limpiar 
+                                el motor de la moto.
+                            </div>
+                        </td>
+                    </tr>
+
+                        
+
+                    <tr class="filaimpar">
+                        <td><br> <b>5-Paso Cinco</b> <br>
+                         
+                         <div class="descripcion">
+                            Es muy importante que, antes de usar nuestra motocicleta después de lavar el motor, dejemos 
+                            que éste se seque por completo. Podemos ayudarnos de un trapo para quitar el exceso de humedad.
+                         </div> 
+                        </td>
+
+                        <td><br> <b>Filtro De Aire</b> <br>
+                        
+                        <br><div class="descripcion">
+                            El filtro de aire es una de las piezas clave en el funcionamiento de la moto. Y es que se encarga, 
+                            como su nombre indica, de filtrar el aire que precisa el motor para funcionar con el fin de que sea 
+                            lo más limpio posible y no pasen las impurezas del ambiente a la cámara de explosión. Una función 
+                            por la que es habitual que el filtro se ensucie o bien se obstruya por esa acumulación de impurezas 
+                            y, sobre todo, de polvo que se va quedando adherido.
+                        </div>
+                        </td>
+
+                        
+                    </tr>
+
+                    <tr class="filapar">
+                        <td><br> <b>Por qué es importante limpiar el filtro de aire en la moto</b><br>
+                            
+                            <br><div class="descripcion">
+                                Como hemos comentado anteriormente, el filtro de aire de la moto es fundamental para filtrar el aire, 
+                                siendo muy importante limpiarlo. Y es que, cuando está sucio u obstruido, se reduce la cantidad de aire
+                                 que llega al motor. Esto produce un desequilibrio entre la mezcla de aire y el combustible, que es el 
+                                 que alimenta el motor.De esta manera, se generaría una reducción en la potencia del motor y del acelerador, 
+                                 aparte de producirse un calentamiento del motor. Además, en aquellos casos en los que el filtro de aire 
+                                 se obstruyera por completo, la moto no funcionaría.
+                            </div>
+                        </td>
+
+                        <td> <br><b>Cuándo cambiar las bujías de mi moto</b><br>
+                            
+                            <div class="descripcion">
+                                Las bujías son las piezas encargadas de realizar el encendido entre el combustible y el aire en los 
+                                cilindros, a través de una chispa. Lo que consiguen es convertir la energía eléctrica en un arco 
+                                eléctrico. La correcta actividad de las bujías es vital para que la moto funcione, por lo que hay 
+                                que tenerlas en cuenta y cambiarlas siempre que sea necesario. Al reemplazarlas, además, evitarás 
+                                que se produzcan nuevas averías que pueden originarse a raíz de un mal mantenimiento. Para que lo tengas 
+                                todo a punto, en uncomo te explicamos cuándo debes cambiar las bujías de tu moto.
+                            </div>
+                        </td>
+
+                        
+    
+                            
+                        
+
+                        
+                    </tr>
+
+                    
+
+                    <tr> <td colspan="6"> <div class="fuente">Fuente:</div> <div class="parrafofuente">Elaboración propia a partir de datos recolectados (2021). </div> </td></tr>
+            </table>
+            
+
+        <!--Pie de Pagina-->
+    </body>
+</html>

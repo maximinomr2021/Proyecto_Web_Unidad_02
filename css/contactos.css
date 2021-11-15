@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+}
+
+body {
+    height: 600px;
+  
+    background: linear-gradient(to bottom, #d1ddfd, rgb(219, 219, 255));
+  
+ 
+  
+}
+
+header {
+    background-color: #000000;
+    text-align: right;
+    padding: 0.4em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  
+
+} 
+header h1{
+    text-align: center;
+    color: rgb(246, 246, 248);
+    padding: 0.2em;
+    font-size: 2.3em;
+    padding-right: 0.5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+
+header h2{
+    text-align: center;
+    color:rgb(255, 198, 77);
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background-color: rgb(114, 114, 114);
+    min-height: 1.5em;
+    width: 100%;
+    padding-top: 1px;
+    height: 50px;
+}
+
+
+
+#menu {
+width: 1000px;
+margin: 0 auto;
+margin-top: 0px;
+font-family: arial;
+font-size: 10px;
+
+}
+
+#menu ul  {
+list-style: none;
+margin: 0;
+}
+
+#menu ul li {
+margin: 0;
+float: left;
+}
+
+#menu ul li a {
+margin:0 2px;
+width: 130px;
+font-weight:bold;
+font-size:1.2em;
+text-align: center;
+line-height: 45px;
+display:block;
+text-decoration: none;
+
+}
+
+#menu ul li a:hover {
+color:#000000;
+}
+
+/*--*/
+#menu ul { list-style-type: none;}
+#menu ul li.nivel1 { float: left;
+width: 130px;
+margin-right: 2px;
+}
+#menu ul li:hover {position: relative;}
+
+#menu ul li a:hover, #menu ul li:hover a.nivel1
+{
+color: rgb(10, 10, 10);
+
+}
+#menu ul li a.nivel1 {display: block!important;display: none;
+
+}
+    
+#menu ul li ul {display: none;
+}
+#menu ul li a:hover ul, #menu ul li:hover ul {display: block;
+    position: absolute;left: -40px;
+}
+    
+#menu ul li ul li a {width: 130px;
+    padding: 4px 0px 6px 0px;
+    border-top-color: rgb(65, 223, 17);
+    
+    }
+#menu ul li ul li a:hover {border-top-color: rgb(10, 10, 10);
+
+}
+#menu ul li a {display: block;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 0px;
+    position: relative;
+    
+    }
+
+
+
+/*sector principal */
+
+section
+{
+    width: 77%;
+    background-color:mediumaquamarine;
+    float: left;
+    
+}
+section h1{
+    text-align: center;
+    padding: 0.3em;
+    color:rgb(46, 202, 15);
+    font-size: 1.5em;
+}
+section h2{
+    text-align: center;
+    padding: 0.3em;
+    color:rgb(204, 233, 42);
+    font-size: 1.5em;
+}
+section h3{
+    text-align: left;
+    padding: 0.3em;
+    color:rgb(3, 3, 3);
+    font-size: 1em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+article{
+    margin: 1.4em 1.4em;
+    padding: 0.5em 0.3em;
+    background-color:white;
+    border: 3px double black;
+
+
+}
+article p{
+    text-align: justify;
+    font-size: 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside{
+    width: 23%;
+    float:left;
+}
+
+#anuncio{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: coral;
+}
+#anuncio h1{
+    text-align: center;
+    font-size: 1.1em;
+}
+#anuncio h2{
+    text-align: center;
+    font-size: 0.6em;
+}
+#anuncio p{
+    text-align: justify;
+    font-size: 0.8em;
+
+}
+footer{
+    clear: both;
+    background-color: rgb(229, 238, 240);
+    border: 3px solid rgb(244, 255, 90);
+
+}
+footer p{
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(2, 3, 3);
+}
+
+/*agregado*/
+
+.login-box {
+    width: 320px;
+    height: 650px;
+    background: linear-gradient(to bottom, rgb(215, 253, 193), rgb(132, 132, 133));
+
+    color: rgb(10, 10, 10);
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+     /*el primero arriba el ultimo mueve hacia la derecha  */
+    margin: 100px auto auto 20px;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], 
+  .login-box input[type="E-mail"],
+  .login-box input[type="apellidos"],
+  .login-box input[type="tel"],
+  .login-box input[type="localidad"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background:rgb(2, 3, 3);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #72eb62;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(12, 11, 11);
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+  }
+  

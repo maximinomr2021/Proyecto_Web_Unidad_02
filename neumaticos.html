@@ -1,0 +1,324 @@
+<!--Documento HTML5-->
+<!DOCTYPE html>
+<!--Lenguaje ES (México)-->
+<html lang="es">
+    <!--Tipo de documento-->
+    <head>
+            <!-- Favicon-->
+            <link rel="icon" href="images/max.png" type="image/png"/>
+            <!--Indicaciones de los metas -->
+            <meta charset="UTF-8" />
+            <meta name="description" content="Uso de Tablas con CSS" />
+            <meta name="keywords" content="Practica, Tabla, tecnm" />
+            <meta name="author"  content="Maximino Mejía Ruíz, maximinomejiaruiz@gmail.com"/>
+            <meta http-equiv="refresh" content="20">
+            <meta name="description" lang="es" content="" />
+             <meta name="robots" content="index, Follow">
+             <meta http-equiv="pragma" content="no-cache" >
+             <link rel="stylesheet" type=text/css href="css/neumatico.css" media="all"> 
+            <title> ...:: Neumaticos ::.. </title> 
+            <!--Hojas de estilo (internas o externas)-->
+            <style type="text/css">
+                *{
+                }
+                #body{
+                    background-color: black;
+                }
+                
+
+                #contenedor {
+                    text-align: center;
+                    background: chartreuse;
+                    
+                }
+
+                table {
+                    width: 100%;
+                    font: normal 16px Arial;
+                    text-align: center;
+                    background-color: #f3f3f3 ;
+                    color:fff;
+                }
+                table th {
+                    font: bold 18px Arial;
+                    background-color: rgb(235, 211, 0);
+                    text-align: center;
+                    
+                }
+
+                .filapar {
+                    background-color: #a1ec9a;
+                    background-image: linear-gradient(to right, rgb(188, 248, 191),rgb(172, 243, 239));
+                }                
+
+                .filaimpar{
+                    background-color:#f1ef58;
+                    background-image: linear-gradient(to right, rgb(188, 248, 191),rgb(172, 243, 239));
+                }
+
+                h1 {
+                    font: bold 30px Tahoma;
+                    text-align: center;
+                    color:rgb(71, 195, 233);
+                }
+
+                h6 {
+                    font: normal 10px arial;
+                    text-align: left;
+                    
+                }
+                table tr {
+                     background-color: #fafaf8;
+                     width: auto;
+                     background-image: linear-gradient(to right, rgb(184, 250, 222),rgb(243, 255, 220));
+  
+                 }
+
+                .parrafofuente {
+                    font:normal 14px arial;
+                    text-align: left;
+                    padding-top: 5px;
+                    padding-left: 20px;
+                }
+
+                .fuente {
+                    font-weight:bold 10px;
+                    font-style: italic;
+                    text-align: left;
+                }
+
+                .descripcion {
+                    text-align: justify;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                }
+
+                table td {
+                    width: 16.66%;
+                }
+                .encabezado{
+                    text-align: center;
+                    width: auto;
+                    color: rgb(0, 0, 0);
+                    font-size: 18px;
+
+                }
+
+            </style>
+           
+    </head>
+
+
+    <body id="body">
+        <!--Menu-->
+        <!--Texto (Titulos-Parrafos)-->
+        <!--Listas Desordenadas <ul> <li> </li> </ul> -->
+
+        <header>
+            <img src="images/logoface.png"  width="40px" height="40px" hspace="1px" vspace="2px" alt="facebook" aling="rigth" >
+            <img src="images/Logo-Instagram.png"  width="45px" height="45px" hspace="1px" vspace="2px" alt="instagram" aling="rigth">
+            <img src="images/twitter.png" width="40px" height="40px" hspace="1px" vspace="2px" alt="twitwer" aling="rigth">
+  
+                <h1>(-_-)::FULL BIKERS::(-_-)</h1>
+              <h2>-----Una Vida Sobre Ruedas-----</h2>
+        </header>
+  
+        <!--Barra de navegación-->
+  
+        <nav>
+            
+              <div id="menu"> 
+                  <ul>
+                    <li id="inicio" ><a href="index.html" class="nivel1">Inicio</a> 
+                      <li id="equipo" ><a href="#" class="nivel1">Equipo</a> 
+                          <ul>
+                              <li><a href="cascos.html">Cascos</a></li>
+                              <li><a href="accesorios.html">Accesorios</a></li>
+                              <li><a href="neumaticos.html">Neumaticos</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="mantenimiento" ><a href="#" class="nivel1">Mantenimiento</a> 
+                          <ul>
+                              <li><a href="motos.html">Motos</a></li>
+                              <li><a href="motor.html">Motor</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="consejos" ><a href="#" class="nivel1">Consejos</a> 
+                          <ul>
+                              <li><a href="proteccion.html">Protección</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="datoslegales" ><a href="#" class="nivel1">Datos Legales</a> 
+                          <ul>
+                              <li><a href="informacion.html">información</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="inicio" ><a href="sesion.html" class="nivel1">Inicio de Sesion</a> 
+                          
+                      </li>
+
+                      <li id="informacion" ><a href="#" class="nivel1">Información</a> 
+                        <ul>
+                        
+                            <li><a href="Contactos.html">Contactos</a></li>
+                           <li><a href="staff.html">Staff</a></li>
+						   <li><a href="testimonios.html">Testimonios</a></li>
+                           <li><a href="ubicacion.html">ubicación</a></li>
+                        </ul>
+                    </li>
+  
+  
+                  </ul>
+               </div>  
+        </nav>
+    
+         
+        <table align="center">
+                    <tr class="encabezado"> 
+                        <center><td colspan="6"><b>--Llantas--</b></td></center>
+                        
+                    </tr>
+
+                    <tr class="filaimpar">
+                        <td> <b>Avon Tyres</b><br> <br>
+                            <img src="images/avon10.jpg" width="300px"  border="1px"/>
+                             
+                             <br><div class="descripcion">
+                                Esta marca fabricó su primer neumático para moto en el año 1911, y desde entonces ha cosechado 
+                                muchos éxitos en diversas competiciones de motociclismo. Sus productos incluyen además una serie 
+                                de elementos tecnológicos que se han ido desarrollando y probando con el transcurso de los años; 
+                                y por ello pueden ofrecer distintos neumáticos para motocicletas de toda clase (touring, clásicas, 
+                                cruiser, de competición…). Son garantía de máxima calidad. </div>
+                        </td>
+                        <td>  <b>Mitas</b><br><br>
+                            <img src="images/mitas.jpg" width="300px" border="1px"/>
+                            <div class="descripcion">
+                         <br>Mitas es una marca que también está especializada en neumáticos de moto, sobre todo de competición. 
+                         Según lo que podemos leer en su página web, “los neumáticos para motocicletas Mitas permiten a los pilotos 
+                         disfrutar de la máxima aventura del motociclismo”. No solo ofrecen una variedad de neumáticos de alta 
+                         calidad, sino también de tubos de escape. Tiene neumáticos para todo tipo de motocicletas: scooters, motos 
+                         de carretera, motos de montaña….</div>
+                    </td>
+
+                        
+
+                    <tr class="filapar">
+
+                        <td> <b>Metzeler</b> <br><br>
+                        <img src="images/metzeler.jpg" width="300px" border="1px"/>
+                        <br><div class="descripcion">
+                            Esta empresa alemana es más que conocida en el mundo de los neumáticos, y desde luego no es por casualidad. 
+                            Puede ser que se trate de una de las marcas que más modelos para cada variedad de neumático ofrecen, y esto 
+                            se puede comprobar fácilmente en su página web oficial. Cuando nos metemos en la sección de neumáticos de 
+                            moto y scooter, tenemos una gran cantidad de modelos clasificados en distintas categorías: desde las de 
+                            competición hasta los de aventura y turismo.
+                        </div>
+                        
+                        </td>
+                        
+                        <td> <b>Kyoto</b> <br><br>
+                        <img src="images/kyoto.jpg" width="300px" border="1px"/>´
+                            <br><div class="descripcion">
+                                La marca japonesa siempre se ha caracterizado por ofrecer productos de primerísima calidad, y se especializa 
+                                sobre todo en neumáticos para coche y para moto. Encontraremos neumáticos de motos de todo tipo, pero sobre 
+                                todo son especialmente buenos en neumáticos para motocicletas de motocross. En cualquier caso, también podemos 
+                                encontrar buenos neumáticos para motos de carretera.
+                            </div>
+                        </td>
+                    </tr>
+
+                        
+
+                    <tr class="filaimpar">
+                        <td> <b>Heidenau</b> <br><br>
+                         <img src="images/heidenau-motorcycle-tyre-range.jpg" width="300px" border="1px"/>  
+                         <br><div class="descripcion">
+                            Empezaron su andadura en el mundo de los neumáticos de moto en el año 1946, y se han mantenido en lo 
+                            más alto en la oferta para todos los tipos de motocicleta que existen. También ofrecen neumáticos de 
+                            coche y de kart, pero sobre todo son expertos en los de moto. Son productos de excelente calidad, y 
+                            aunque no tenga página web oficial en español, se pueden encontrar fácilmente a través de mercados online.
+                         </div> 
+                        </td>
+
+                        <td> <b>Dunlop</b> <br><br>
+                        <img src="images/dulop.png" width="300px" border="1px" />
+                        <br><div class="descripcion">
+                            Todos conocemos a la famosísima empresa británica Dunlop, pero lo que poca gente sabrá es que, aparte 
+                            de una marca de ropa, es también una marca de neumáticos, que tiene modelos para todos los tipos de motos 
+                            que existen. De hecho, destaca por la excelente calidad de los mismos en el caso de las motos, ya que 
+                            con ellos motoristas han ganado grandes competiciones. Además, tienen un acuerdo desde 1983 con la famosa 
+                            compañía de motos Harley-Davidson. Esto ya nos da una muestra de lo que significa tener estos neumáticos.
+                        </div>
+                        </td>
+
+                        
+                    </tr>
+
+                    <tr class="filapar">
+                        <td> <b>Bridgestone</b><br><br> 
+                            <img src="images/Bridgestone-Logo.jpg" width="300px" border="1px"/>
+                            <br><div class="descripcion">
+                                Sin duda alguna es una de las superpotencias de los neumáticos de coche y moto a nivel mundial. 
+                                Tener unos buenos neumáticos en nuestra moto de la firma japonesa Bridgestone sin duda nos dará 
+                                un alto estatus. Sus neumáticos Premium nos servirán para todo tipo de motos: de carretera, de 
+                                motocross, de competición… y serán siempre de una calidad sobresaliente. Comprar un producto de 
+                                esta empresa es una gran opción.
+                            </div>
+                        </td>
+
+                        <td> <b>Continental</b><br><br>
+                            <img src="images/contineltal.jpg" width="300px" border="1px" />
+                            <br><div class="descripcion">
+                                El famoso caballo alemán reclama el primer puesto en el podio y lo consigue muy merecidamente. 
+                                Son neumáticos de alta tecnología, con una calidad fuera de serie, y están disponibles para todo 
+                                tipo de motos: de carretera, de competición, de motocross… Son resistentes, suelen tener un muy 
+                                buen agarre en mojado y permiten una excelente maniobrabilidad. Son muy completos, y por ello, recomendables al 100%.
+                            </div>
+                        </td>
+
+                        <tr class="filaimpar">
+                            <td> <b>Pirelli</b> <br><br>
+                             <img src="images/pirelli.png" width="300px" border="1px"/> 
+                             <br><div class="descripcion">
+                                Esta marca italiana, ahora propiedad china, cuenta en su gran catálogo posiblemente con los neumáticos 
+                                más innovadores tecnológicamente hablando. Es uno de los más importantes patrocinadores de las carreras 
+                                más importantes del motociclismo, por lo que no es de extrañar que sus neumáticos estén instalados en las 
+                                motos de grandes competidores. Sin embargo, también ofrecen neumáticos para motos del día a día: scooters, 
+                                motos de carretera.
+                            </div> 
+                              
+                            </td>
+    
+                            <td> <b>Michelin</b> <br><br>
+                            <img src="images/Michelin_Corporate_Logo___color.jpg" width="300px" border="1px" />
+                            <br><div class="descripcion">
+                                Nuestra más sincera enhorabuena a la conocidísima marca francesa, que se queda con el primer puesto, tras 
+                                una dura batalla con las dos firmas anteriores en la lista, pero sobre todo con Pirelli. Tienen neumáticos 
+                                para todo tipo de motos: de aventura, de touring, de carretera, de competición… y además en su página web, 
+                                nada más entrar en el apartado de neumáticos de moto, nos aparece un buscador muy intuitivo que sirve para 
+                                recomendarnos el ideal basándose en la marca de nuestro vehículo. Y es que pongan las cosas fáciles siempre gusta.
+                            </div>
+                            </td>
+    
+                            
+                        </tr>
+
+                        
+                    </tr>
+
+                    
+
+                    <tr> <td colspan="6"> <div class="fuente">Fuente:</div> <div class="parrafofuente">Elaboración propia a partir de datos recolectados (2021). </div> </td></tr>
+            </table>
+            
+
+        <!--Pie de Pagina-->
+    </body>
+</html>

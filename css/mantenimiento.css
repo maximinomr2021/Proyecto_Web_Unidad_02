@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+}
+
+body {
+  margin:0px;
+  padding: 0px;
+}
+
+header {
+    background-color: #000000;
+    text-align: right;
+    padding: 0.4em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  
+
+} 
+header h1{
+    text-align: center;
+    color: rgb(246, 246, 248);
+    padding: 0.2em;
+    font-size: 2.3em;
+    padding-right: 0.5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+
+header h2{
+    text-align: center;
+    color:rgb(127, 255, 77);
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background-color: rgb(114, 114, 114);
+    min-height: 1.5em;
+    width: 100%;
+    padding-top: 1px;
+    height: 50px;
+}
+
+
+
+#menu {
+width: 1000px;
+margin: 0 auto;
+margin-top: 0px;
+font-family: arial;
+font-size: 10px;
+
+}
+
+#menu ul  {
+list-style: none;
+margin: 0;
+}
+
+#menu ul li {
+margin: 0;
+float: left;
+}
+
+#menu ul li a {
+margin:0 2px;
+width: 130px;
+font-weight:bold;
+font-size:1.2em;
+text-align: center;
+line-height: 44px;
+display:block;
+text-decoration: none;
+color: black;
+background-color: burlywood;
+
+}
+
+#menu ul li a:hover {
+color:#a30505;
+}
+
+/*--*/
+#menu ul { list-style-type: none;}
+#menu ul li.nivel1 { float: left;
+width: 130px;
+margin-right: 2px;
+}
+#menu ul li:hover {position: relative;}
+
+#menu ul li a:hover, #menu ul li:hover a.nivel1
+{
+color: rgb(118, 247, 67);
+
+}
+#menu ul li a.nivel1 {display: block!important;display: none;
+
+}
+    
+#menu ul li ul {display: none;
+}
+#menu ul li a:hover ul, #menu ul li:hover ul {display: block;
+    position: absolute;left: -40px;
+    margin: 1px;
+}
+    
+#menu ul li ul li a {width: 140px;
+    padding: 4px 0px 6px 0px;
+    border-top-color: rgb(0, 0, 0);
+    
+    }
+#menu ul li ul li a:hover {border-top-color: rgb(10, 10, 10);
+
+}
+#menu ul li a {display: block;
+    text-decoration: none;
+    background-color: #f5ff6f;
+    padding: 0px;
+    position: relative;
+    
+    }
+
+
+
+/*sector principal */
+
+section
+{
+    width: 77%;
+    background-color:rgb(115, 203, 209);
+    float: left;
+    
+}
+section h1{
+    text-align: center;
+    padding: 0.3em;
+    color:rgb(158, 0, 0);
+    font-size: 1.5em;
+}
+section h2{
+    text-align: center;
+    padding: 0.3em;
+    color:rgb(204, 233, 42);
+    font-size: 1.5em;
+}
+section h3{
+    text-align: left;
+    padding: 0.3em;
+    color:rgb(3, 3, 3);
+    font-size: 1em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+article{
+    margin: 1.4em 1.4em;
+    padding: 0.5em 0.3em;
+    background-color:rgb(228, 228, 228);
+    border: 3px double black;
+
+
+}
+article p{
+    text-align: justify;
+    font-size: 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside{
+    width: 23%;
+    float:left;
+    height: ;
+}
+
+#anuncio{
+    height: 413px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: rgb(166, 236, 108);
+}
+#anuncio h1{
+    text-align: center;
+    font-size: 1.1em;
+}
+#anuncio h2{
+    text-align: center;
+    font-size: 0.6em;
+}
+#anuncio p{
+    text-align: justify;
+    font-size: 0.8em;
+
+}
+footer{
+    clear: both;
+    background-color: rgb(241, 199, 245);
+    border: 3px solid rgb(244, 255, 90);
+
+}
+footer p{
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(2, 3, 3);
+}
+
+/*agregado*/

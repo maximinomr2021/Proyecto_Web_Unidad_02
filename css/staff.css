@@ -1,0 +1,152 @@
+
+/* Inicio de CSS para proyecto Web */
+/* Programación Web */
+/* Mie 03 de noviembre de 2021 */
+
+* { 
+	margin: auto;  
+	padding: 0; 
+	font-family: arial;
+}
+
+/* Cabecera del documento */
+header { 
+	background-color: #a6e0f1; 
+	}
+
+
+header h1 { 
+	text-align: center; 
+	color: #fcfafa; 
+	padding: 0.05em; 
+	font-size: 1.5em;
+}
+
+
+
+/* Nav */
+nav {
+	background-color: #005853;
+	min-height: 1.7em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+nav p 
+	{
+	display: inline;
+	}
+
+nav a:link, 
+nav a:visited
+	{
+	text-decoration: none; 
+	color: #f1f26c; 
+	background-color: #000000; 
+	margin: 0.3em; 
+	padding: 0.6em;
+	}
+
+nav a:hover, 
+nav a:active 
+	{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #543683;
+	margin: 0.3em; 
+	padding: 0.6em;
+	}
+
+
+	/*Sector principal */
+section
+{
+	width: 75%;
+	background-color: #ffffff;
+	float: left;
+    
+}
+
+
+section h1 { 
+	text-align: center; 
+	padding: 0.3em;
+	color: rgb(0, 0, 0);
+	font-size: 1.5em;
+}
+
+section h2 { 
+	text-align: center; 
+	padding: 0.2em;
+	color: #000000;
+	font-size: 1.5em;
+}
+
+
+section h3 { 
+	text-align: left; 
+	padding: 0.3em;
+	color: #000000;
+	font-size: 1em;
+}
+
+
+article {
+	margin: 1.4em 1.4em ;
+	padding: 0.8em 0.6em;
+	background-color: rgb(196, 196, 196);
+	border: 3px double black;
+}
+
+article p {
+	text-align: justify;
+	font-size: 0.8em;
+}
+
+
+aside {
+	width: 25%;
+	float: right;
+	background-color: rgb(196, 196, 196);
+}
+
+#anuncio {
+	margin: 20px;
+	padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	background-color: white;
+}
+
+#anuncio h1 {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+
+#anuncio h2 {
+	text-align: center;
+	font-size: 0.6em;
+}
+
+#anuncio p {
+	text-align: justify;
+	font-size: 0.8em;
+}
+
+footer {
+	clear: both;
+	background-color: #397fad;
+	border: 2px solid rgb(255, 255, 255);
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.8em;
+	color: #000000;
+	padding: 30px;
+}
+
+
+
+
+

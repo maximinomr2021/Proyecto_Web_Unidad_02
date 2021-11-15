@@ -1,0 +1,294 @@
+<!--Documento HTML5-->
+<!DOCTYPE html>
+<!--Lenguaje ES (México)-->
+<html lang="es">
+    <!--Tipo de documento-->
+    <head>
+            <!-- Favicon-->
+            <link rel="icon" href="images/max.png" type="image/png"/>
+            <!--Indicaciones de los metas -->
+            <meta charset="UTF-8" />
+            <meta name="description" content="Uso de Tablas con CSS" />
+            <meta name="keywords" content="Practica, Tabla, tecnm" />
+            <meta name="author"  content="Maximino Mejía Ruíz, maximinomejiaruiz@gmail.com"/>
+            <meta http-equiv="refresh" content="60">
+            <meta name="description" lang="es" content="" />
+             <meta name="robots" content="index, Follow">
+             <meta http-equiv="pragma" content="no-cache" >
+             <link rel="stylesheet" type=text/css href="css/accesorios.css" media="all"> 
+            <title> ...:: Accesorios ::.. </title> 
+            <!--Hojas de estilo (internas o externas)-->
+            <style type="text/css">
+                *{
+                }
+                #body{
+                    background-color: black;
+                }
+                
+
+                #contenedor {
+                    text-align: center;
+                    background: chartreuse;
+                    
+                }
+
+                table {
+                    width: 100%;
+                    font: normal 16px Arial;
+                    text-align: center;
+                    background-color: #f3f3f3 ;
+                    color:fff;
+                }
+                table th {
+                    font: bold 18px Arial;
+                    background-color: rgb(235, 211, 0);
+                    text-align: center;
+                    
+                }
+
+                .filapar {
+                    background-color: #f38ffc;
+                    background-image: linear-gradient(to right, rgb(207, 250, 235),rgb(172, 185, 243));
+                }                
+
+                .filaimpar{
+                    background-color:#67ddf1;
+                    background-image: linear-gradient(to right, rgb(207, 250, 235),rgb(172, 185, 243));
+                }
+
+                h1 {
+                    font: bold 30px Tahoma;
+                    text-align: center;
+                    color:rgb(71, 195, 233);
+                }
+
+                h6 {
+                    font: normal 10px arial;
+                    text-align: left;
+                    
+                }
+                table tr {
+                     background-color: #e9fa54;
+                     width: auto;
+                 }
+
+                .parrafofuente {
+                    font:normal 14px arial;
+                    text-align: left;
+                    padding-top: 5px;
+                    padding-left: 20px;
+                }
+
+                .fuente {
+                    font-weight:bold 10px;
+                    font-style: italic;
+                    text-align: left;
+                }
+
+                .descripcion {
+                    text-align: justify;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                }
+
+                table td {
+                    width: 16.66%;
+                }
+                .encabezado{
+                    text-align: center;
+                    width: auto;
+                    color: rgb(0, 0, 0);
+                    font-size: 18px;
+
+                }
+
+            </style>
+           
+    </head>
+
+
+    <body id="body">
+        <!--Menu-->
+        <!--Texto (Titulos-Parrafos)-->
+        <!--Listas Desordenadas <ul> <li> </li> </ul> -->
+
+        <header>
+            <img src="images/logoface.png"  width="40px" height="40px" hspace="1px" vspace="2px" alt="facebook" aling="rigth" >
+            <img src="images/Logo-Instagram.png"  width="45px" height="45px" hspace="1px" vspace="2px" alt="instagram" aling="rigth">
+            <img src="images/twitter.png" width="40px" height="40px" hspace="1px" vspace="2px" alt="twitwer" aling="rigth">
+  
+                <h1>(-_-)::FULL BIKERS::(-_-)</h1>
+              <h2>-----Una Vida Sobre Ruedas-----</h2>
+        </header>
+  
+        <!--Barra de navegación-->
+  
+        <nav>
+            
+              <div id="menu"> 
+                  <ul>
+                    <li id="inicio" ><a href="index.html" class="nivel1">Inicio</a> 
+                      <li id="equipo" ><a href="#" class="nivel1">Equipo</a> 
+                          <ul>
+                              <li><a href="cascos.html">Cascos</a></li>
+                              <li><a href="accesorios.html">Accesorios</a></li>
+                              
+                              <li><a href="neumaticos.html">Neumaticos</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="mantenimiento" ><a href="#" class="nivel1">Mantenimiento</a> 
+                          <ul>
+                              <li><a href="motos.html">Motos</a></li>
+                              <li><a href="motor.html">Motor</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="consejos" ><a href="#" class="nivel1">Consejos</a> 
+                          <ul>
+                              <li><a href="proteccion.html">Protección</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="datoslegales" ><a href="#" class="nivel1">Datos Legales</a> 
+                          <ul>
+                              <li><a href="informacion.html">Información</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="inicio" ><a href="sesion.html" class="nivel1">Inicio de Sesion</a> 
+                          
+                      </li>
+
+                      <li id="informacion" ><a href="#" class="nivel1">Información</a> 
+                        <ul>
+                        
+                            <li><a href="Contactos.html">Contactos</a></li>
+                           <li><a href="staff.html">Staff</a></li>
+						   <li><a href="testimonios.html">Testimonios</a></li>
+                           <li><a href="ubicacion.html">ubicación</a></li>
+                        </ul>
+                    </li>
+  
+  
+                  </ul>
+               </div>  
+        </nav>
+    
+         
+        <table align="center">
+                    <tr class="encabezado"> 
+                        <center><td colspan="6"><b>--Accesorios--</b></td></center>
+                        
+                    </tr>
+
+                    <tr class="filaimpar">
+                        <td> <b>Lata selladora de llantas</b><br> <br>
+                            <img src="images/sellador.jpg" width="300px" height="270px" border="1px"/>
+                             
+                             <br><div class="descripcion">
+                                Los clavos, tornillos y metales filosos siempre abundan en las carreteras y terracerias; 
+                                pero  un sellador de llantas para moto te puede ayudar a llegar a un lugar donde reparar 
+                                tu llanta. Ademas ocupa poco espacio de tu maleta. </div>
+                        </td>
+                        <td>  <b>Guantes para moto de repuesto</b><br><br>
+                            <img src="images/guante.png" width="300px" border="1px"/>
+                            <div class="descripcion">
+                         <br>¿Alguna vez has manejado en el frió sin guantes? Siempre hay posibilidades de que pierdas 
+                         uno o ambos guantes en la rodada, llevar un par te hará el paro.</div>
+                    </td>
+
+                        
+
+                    <tr class="filapar">
+
+                        <td> <b>Toallitas húmedas</b> <br><br>
+                        <img src="images/toallas1.jpg" width="300px" border="1px"/>
+                        
+                        </td>
+                        
+                        <td> <b>Batería extra para el celular (cargada)</b> <br><br>
+                        <img src="images/bateria.jpg" width="300px" border="1px"/>´
+                            <br><div class="descripcion">
+                                Afortunadamente tenemos celular para comunicarnos casi en cualquier lugar; desafortunadamente, 
+                                su pila no es infinita y podrías morirse cuando más la necesitas.
+                            </div>
+                        </td>
+                    </tr>
+
+                        
+
+                    <tr class="filaimpar">
+                        <td> <b>Herramienta para moto básica</b> <br><br>
+                         <img src="images/kit.jpg" width="300px" border="1px"/>  
+                         <br><div class="descripcion">
+                            Procura llevar un pequeño kit de herramienta para meterle mano a tu moto en caso de que 
+                            sea necesario. Te recomendamos llevar herramienta por lo menos para cambiar una llanta o cadena.
+                         </div> 
+                        </td>
+
+                        <td> <b>Lámpara</b> <br><br>
+                        <img src="images/lampara.jpg" width="300px" border="1px" />
+                        <br><div class="descripcion">
+                            Además de ayudarte a ver en la noche; también puede ayudar a otras personas a verte en la noche, 
+                            por ejemplo, si estuvieras parado junto a la carretera de noche.
+                        </div>
+                        </td>
+
+                        
+                    </tr>
+
+                    <tr class="filapar">
+                        <td> <b>Navaja suiza</b><br><br> 
+                            <img src="images/navaja.jpg" width="300px" border="1px"/>
+                            <br><div class="descripcion">
+                                Esperamos que el creador de esta maravilla tenga un lugar en el cielo; con ellas 
+                                podemos: cortar, rebanar, apretar tornillos, sacar espinas, etc. Uno de los accesorios 
+                                para biker que nunca nos debe faltar.
+                            </div>
+                        </td>
+
+                        <td> <b>Impermeable</b><br><br>
+                            <img src="images/impermeable.png" width="300px" border="1px" />
+                            <br><div class="descripcion">
+                                Consigue un impermeable que ocupe poco espacio de tu maleta; dale más prioridad a este 
+                                accesorio cuando es verano y las posibilidades de que llueva son muy altas.
+                            </div>
+                        </td>
+
+                        <tr class="filaimpar">
+                            <td> <b>Rodilleras</b> <br><br>
+                             <img src="images/rodillera.jpg" width="300px" border="1px"/>  
+                              
+                            </td>
+    
+                            <td> <b>Kit de primeros auxilios</b> <br><br>
+                            <img src="images/kitprimerosauxilios.jpg" width="300px" border="1px" />
+                            <br><div class="descripcion">
+                                Este es uno de los accesorios para biker que casi nadie lleva a sus viajes; procura llevar 
+                                cosas básicas como pastillas, vendas, gasas y alcohol.
+                            </div>
+                            </td>
+    
+                            
+                        </tr>
+
+                        
+                    </tr>
+
+                    
+
+                    <tr> <td colspan="6">   </td></tr>
+            </table>
+            <footer> 
+                <p> Derechos Reservados 2021 -  Tecnología Responsiva</p>
+
+        </footer>
+            
+
+        <!--Pie de Pagina-->
+    </body>
+</html>

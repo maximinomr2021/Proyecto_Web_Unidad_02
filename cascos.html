@@ -1,0 +1,318 @@
+<!--Documento HTML5-->
+<!DOCTYPE html>
+<!--Lenguaje ES (México)-->
+<html lang="es">
+    <!--Tipo de documento-->
+    <head>
+            <!-- Favicon-->
+            <link rel="icon" href="images/max.png" type="image/png"/>
+            <!--Indicaciones de los metas -->
+            <meta charset="UTF-8" />
+            <meta name="description" content="Uso de Tablas con CSS" />
+            <meta name="keywords" content="Practica, Tabla, tecnm" />
+            <meta name="author"  content="Maximino Mejía Ruíz, maximinomejiaruiz@gmail.com"/>
+            <meta http-equiv="refresh" content="20">
+            <meta name="description" lang="es" content="" />
+             <meta name="robots" content="index, Follow">
+             <meta http-equiv="pragma" content="no-cache" >
+
+             <link rel="stylesheet" type=text/css href="css/casco.css" media="all"> 
+
+            <title> ...:: Cascos ::.. </title> 
+            <!--Hojas de estilo (internas o externas)-->
+            <style type="text/css">
+                *{
+                }
+                #body{
+                    background-color: black;
+                }
+                
+
+                #contenedor {
+                    text-align: center;
+                    background: chartreuse;
+                    background-image: linear-gradient(to right, rgb(207, 250, 235),rgb(172, 185, 243));
+                    
+                }
+
+                table {
+                    width: 100%;
+                    font: normal 16px Arial;
+                    text-align: center;
+                    background-color: #f3f3f3 ;
+                    color:fff;
+                }
+                table th {
+                    font: bold 18px Arial;
+                    background-color: rgb(235, 211, 0);
+                    text-align: center;
+                    
+                }
+
+                .filapar {
+                    background-color: #9dfff2;
+                    background-image: linear-gradient(to right, rgb(250, 207, 246),rgb(172, 185, 243));
+                }                
+
+                .filaimpar{
+                    background-color:#5bd622;
+                    background-image: linear-gradient(to right, rgb(250, 240, 207),rgb(172, 185, 243));
+                }
+
+                h1 {
+                    font: bold 30px Tahoma;
+                    text-align: center;
+                    color:rgb(71, 195, 233);
+                }
+
+                h6 {
+                    font: normal 10px arial;
+                    text-align: left;
+                    
+                }
+                table tr {
+                     background-color: #c52f98;
+                     background-image: linear-gradient(to right, rgb(207, 250, 209),rgb(172, 185, 243));
+                     width: auto;
+                 }
+
+                .parrafofuente {
+                    font:normal 14px arial;
+                    text-align: left;
+                    padding-top: 5px;
+                    padding-left: 20px;
+                }
+
+                .fuente {
+                    font-weight:bold 10px;
+                    font-style: italic;
+                    text-align: left;
+                }
+
+                .descripcion {
+                    text-align: justify;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                table td {
+                    width: 16.66%;
+                }
+                .encabezado{
+                    text-align: center;
+                    width: auto;
+                    color: rgb(0, 0, 0);
+                    font-size: 18px;
+
+                }
+
+            </style>
+           
+    </head>
+
+    <body id="body">
+        <!--Menu-->
+        <!--Texto (Titulos-Parrafos)-->
+        <!--Listas Desordenadas <ul> <li> </li> </ul> -->
+        <header>
+            <img src="images/logoface.png"  width="40px" height="40px" hspace="1px" vspace="2px" alt="facebook" aling="rigth" >
+            <img src="images/Logo-Instagram.png"  width="45px" height="45px" hspace="1px" vspace="2px" alt="instagram" aling="rigth">
+            <img src="images/twitter.png"  width="40px" height="40px" hspace="1px" vspace="2px" alt="twitwer" aling="rigth">
+  
+                <h1>(-_-)::FULL BIKERS::(-_-)</h1>
+              <h2>-----Una Vida Sobre Ruedas-----</h2>
+        </header>
+  
+        <!--Barra de navegación-->
+  
+        <nav>
+            
+              <div id="menu"> 
+                  <ul>
+                    <li id="inicio" ><a href="index.html" class="nivel1">Inicio</a> 
+                      <li id="equipo" ><a href="#" class="nivel1">Equipo</a> 
+                          <ul>
+                              <li><a href="cascos.html">Cascos</a></li>
+                              <li><a href="accesorios.html">Accersorios</a></li>
+                              
+                              <li><a href="neumaticos.html">Neumaticos</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="mantenimiento" ><a href="#" class="nivel1">Mantenimiento</a> 
+                          <ul>
+                              <li><a href="motos.html">Motos</a></li>
+                              <li><a href="motor.html">Motor</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="consejos" ><a href="#" class="nivel1">Consejos</a> 
+                          <ul>
+                              <li><a href="proteccion.html">Protección</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="datoslegales" ><a href="#" class="nivel1">Datos Legales</a> 
+                          <ul>
+                              <li><a href="informacion.html">Información</a></li>
+                          </ul>
+                      </li>
+  
+                      <li id="inicio" ><a href="sesion.html" class="nivel1">Inicio de Sesion</a> 
+                          
+                      </li>
+
+                      <li id="informacion" ><a href="#" class="nivel1">Información</a> 
+                        <ul>
+                        
+                            <li><a href="Contactos.html">Contactos</a></li>
+                           <li><a href="staff.html">Staff</a></li>
+						   <li><a href="testimonios.html">Testimonios</a></li>
+                           <li><a href="ubicacion.html">ubicación</a></li>
+                        </ul>
+                    </li>
+  
+  
+                  </ul>
+               </div>  
+        </nav>
+    
+         
+        <table align="center">
+                    <tr class="encabezado"> 
+                        <center><td colspan="6"><b>--Catálogo De Defensas--</b></td></center>
+                        
+                    </tr>
+
+                    <tr class="filaimpar">
+                        <td> <b>AGV Pista GP R</b><br> 
+                            <img src="images/agv_pistagpr-750x446.jpg" width="300px" height="180px" />
+                             
+                             <br><div class="descripcion">
+                                En esta comparativa de cascos de motos, el rey es el Pista GP R de la marca italiana AGV. 
+                                Un casco integral diseñado para la competición por los mejores profesionales. ¿Una de sus 
+                                diferencias clave? Incorpora un nuevo sistema de hidratación, por lo tanto, es perfecto 
+                                para cuando te encuentras en el circuito. Por otro lado, su completo sistema de ventilación 
+                                ha sido desarrollado gracias a la experiencia de MotoGP. Su calota está fabricada al 100% en 
+                                fibra de carbono, uno de los materiales más resistentes del mercado. </div>
+                        </td>
+                        <td>  <b>Shoei</b><br><br>
+                            <img src="images/shoei.jpg" width="230px" height="200px"/>
+                            <div class="descripcion">
+                         <br>Shoei es conocido por producir cascos caros y bien construidos en el extremo superior del 
+                         mercado. Todo lo cual se muestra en su increíble clasificación en nuestra revisión de seguridad. 
+                         En los 13 cascos Shoei han logrado obtener puntajes muy altos, en sus cascos X-Spirit III y el 
+                         Ryd obtuvieron los máximos.</div>
+                        </td>
+
+                        <td> <b>Shark </b><br> 
+                             <img src="images/shark.jpg" width="300px" height="250px" border="1px"/> 
+                            
+                        <br> <div class="descripcion">Shark es una marca francesa con buena calidad. Sharp ha probado 7 cascos 
+                            y ha logrado una puntuación media de 4/5 estrellas. Lo cual no es una sorpresa porque sea cual sea 
+                            el estilo de casco la marca obtuvo una puntuación de 4 estrellas, lo que es un rendimiento increíble.</div></td>
+
+                        
+                         </td>
+                    </tr>
+
+                    <tr class="filapar">
+
+                        <td> <b>HJC</b> <br><br>
+                        <img src="images/hjc1.jpg" width="300px" height="250px" border="1px"/>
+                        <br><div class="descripcion">
+                            HJC se especializa en cascos de menor precio, por lo que no tiene que hacer un gasto 
+                            mayor para tener una excelente protección. En general, sus 6 cascos probados más 
+                            recientemente obtuvieron buenas calificaciones de confiabilidad.
+                        </div>
+                    </td>
+                        
+                        <td> <b>Arai</b> <br><br>
+                        <img src="images/arai2.jpg" width="300px" height="200px" border="1px"/>´
+                            <br><div class="descripcion">
+                                Arai Helmet, es una empresa japonesa que diseña y fabrica cascos para motociclistas y automovilismo. 
+                                La marca fue creada en 1926 por Hirotake Arai y hoy en día ocupa una posición dominante en el sector 
+                                de los cascos de motocicleta.Sus cascos gozan de gran prestigio aunque también destacan por un 
+                                alto precio y por su complicado sistema de cambio de viseras. Es famosa por el uso de Super Complex 
+                                Laminate Construction, un conjunto de varios materiales, incluyendo kevlar.
+                            </div>
+                    </td>
+
+                        <td> <b>HJC RPHA11</b> <br>
+                        <img src="images/rpha11-750x413.jpg" width="300px" height="200px" border="1px"/>
+                            <br><div class="descripcion">
+                                Una evolución del modelo RPHA10 Plus de HJC, el RPHA11 se ha alzado con el título del casco de moto 
+                                más vendido. Se presenta como un casco deportivo, con líneas renovadas y pensado para ofrecer las 
+                                mejores prestaciones al piloto. Su estructura exterior está fabricada en una mezcla de tres 
+                                componentes: fibra de vidrio, fibra de carbono y Aramida, ¿suena bien no? De esta manera, 
+                                consigue ofrecer mayor resistencia y absorción de impactos, manteniendo su ligereza. Si hablamos 
+                                de su sistema de ventilación, este modelo de HJC dispone de unas nuevas entradas de aire. Están 
+                                situadas en la zona del mentón y en la parte superior.<br>
+                                
+                                
+                            </div>
+                    </td>
+
+                        
+                    </tr>
+
+                    <tr class="filaimpar">
+                        <td> <b>Scorpion EXO-710 Air</b> <br><br>
+                         <img src="images/airohyscorpion-750x394.jpg" width="300px" height="200px" border="1px"/>  
+                         <br><div class="descripcion">
+                            Una de las últimas incorporaciones a nuestra pequeña gran familia fue Scorpion EXO. El casco 
+                            integral EXO-710 Air es, de toda su gama, uno de los que más atención ha llamado. Se trata de 
+                            un modelo ligero y completo, fabricado en TCT, capaz de absorber la energía del impacto de 
+                            manera óptima.<br>
+                            Sin duda, el verdadero descubrimiento ha sido su sistema AirFit. ¿Cómo funciona? Todos los cascos 
+                            Air cuentan con una bomba situada en la barbilla que permite al piloto ajustar los acolchados laterales. 
+                            Kwikwick2 De esta forma, con un simple movimiento, puedes inflar o desinflar a tu gusto el interior. 
+                            Es un sistema exclusivo que incorpora en varios modelos de su catálogo.
+                            Si hablamos de su pantalla, debemos destacar su Pinlock Maxvision, una lámina que impide que esta 
+                            se empañe durante la conducción. También, el mecanismo Ellip-Tec es digno de mención. Sin herramientas 
+                            y en menos de tres segundos, puedes extraer la pantalla. Fácil y rápido.
+                         </div> 
+                        </td>
+
+                        <td> <b>Hebo Zone 5</b> <br><br>
+                        <img src="images/hebo-zone-750x250.jpg" width="350px" height="200px" border="1px" />
+                        <br><div class="descripcion">
+                            Cierto es que el Hebo Zone 5 es un casco diseñado para el trial, pero también que en los últimos años 
+                            se ha extendido la ‘moda’ de utilizarlo como casco de carretera. Su calota interior está fabricada en 
+                            EPS en tres densidades, aportando dos medidas interiores. Incorpora un acolchado interior suave, fabricado 
+                            con un laminado de espuma, que aporta confort al piloto y es completamente desmontable.
+                            De su sistema de ventilación Hebo Aireación destacamos sus 2 entradas de aire en la parte frontal, 
+                            sumándole dos aireaciones en la superior. Incorpora 4 salidas en la parte trasera que permiten generar 
+                            un flujo de aire continuo.
+                        </div>
+                        </td>
+
+                        <td> <b>LS2 FF325 Strobe</b> <br><br>
+                        <img src="images/strobe-750x375.jpg" width="300px" height="200px" border="1px"/>
+                        <br><div class="descripcion">
+                            Este lugar lo ocupa el casco modular LS2 FF325 Strobe, un básico muy buscado por nuestros usuarios. Este 
+                            modelo está fabricado en poliuretano y cuenta con la certificación ECE 22.05. Podemos decir que aúna las 
+                            principales características de un casco integral, con la comodidad de un casco jet.
+                            La pantalla del Strobe está fabricada a base de lentes de policarbonato de Clase A y lleva integrado 
+                            una pantalla solar que se puede abatir de manera sencilla. Cuenta con un tratamiento especial antirayazos 
+                            y protección solar UV. Su sistema de ventilación lo componen dos entradas en la parte frontal que puedes 
+                            regularse fácilmente. En los cascos de moto, LS2 resalta su sistema de retención, que se ajusta al piloto 
+                            y le protege ante un impacto. Su interior está fabricado en EPS de varias densidades, cómodo y desmontable, 
+                            perfecto para ser sustituido o para lavarlo.
+                        </div>
+                        
+                    </tr>
+
+                    
+
+                    <tr> <td colspan="6"> <div class="fuente">Fuente:</div> <div class="parrafofuente">Elaboración propia a partir de datos recolectados (2021). </div> </td></tr>
+            </table>
+            
+
+        <!--Pie de Pagina-->
+    </body>
+</html>
